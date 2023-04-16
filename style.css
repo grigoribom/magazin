@@ -1,0 +1,144 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display:block ;
+    width: 30px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+.soc{
+   background-color: #850AE5;
+    padding: 10px 10px 10px 15px;
+    margin: 0px 0px 0px 0px;
+    right: 0px;
+    top: 230px;
+    width: 130px;
+    color: yellow;
+    font-size: 20px;
+    position: fixed;
+}   
+.social:hover{
+    width:80px ;
+    height: 80px;
+}
+.q{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+h1::after{
+    content: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Favatanplus.com%2Ffiles%2Fresources%2Fmid%2F5ee62b1bed8c8172b3186545.png&tbnid=D7UEdVjCWvsI-M&vet=12ahUKEwjmofOM4pz-AhUMvyoKHYXKACkQMygBegUIARDOAQ..i&imgrefurl=https%3A%2F%2Favatanplus.com%2Fdetail%2Fresource-4647304&docid=fcV6WY9EAESJnM&w=400&h=400&q=%D0%B1%D0%B5%D0%BB%D0%BE%D0%B5%20%D1%81%D0%B5%D1%80%D0%B4%D1%86%D0%B5&ved=2ahUKEwjmofOM4pz-AhUMvyoKHYXKACkQMygBegUIARDOAQ");
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.nav-link:hover{
+    font-size: 35px;
+    color: yellow;
+}
+.nav-link:visited{
+    opacity:0.7 ;
+}
+.button:hover{
+    font-size: 30px;
+    background-color: yellow;
+    color:green ;
+    font-weight:750;
+}
+.post:hover{
+    font-weight:750;
+}
